@@ -6,10 +6,17 @@
 from database import *
 
 print("================== Welcome to the CashTracker System ==================")
-print("1. ADD INCOME")
-print("2. ADD EXPENDITURE")
-print("3. VIEW DATA")
-input = input("What do you wanna do: ")
+print("=== V1.01===")
+
+
+while (1):
+    print("1. ADD INCOME")
+    print("2. ADD EXPENDITURE")
+    print("3. VIEW DATA")
+    input = input("What do you wanna do: ")
+
+
+    # Test for selection input
 
 
 if (int(input) == 1):

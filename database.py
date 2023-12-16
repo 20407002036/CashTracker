@@ -24,11 +24,13 @@ def write_income():
     # Call the class income
     income = Income(Source, Amount)
 
+    print(income.Source)
+
    
 
     # Have a Method in the class income to check if Source is valid 
 
-    income.verifySource(Source)
+    income.verifySource()
 
 
    

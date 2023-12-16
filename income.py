@@ -1,12 +1,12 @@
 #!/usr/bin/python3
 
-class Income:
+class Income():
     """ Class Income that has the attributes:
     Time,
     Source
     Amount
     """
-    def __inti__(self,Source=None, Amount=0):
+    def __init__(self,Source=None, Amount=0):
         """
         The initialization function for the class Inclome
         """
