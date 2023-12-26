@@ -1,7 +1,6 @@
 # CASH TRACKER
   * By Solomon Kaniaru
 
-=====================================================
 
 To help solve an issue I am facing rn:
 decided to divert a little from the original idea.(The Subsription helper)
@@ -17,9 +16,8 @@ decided to divert a little from the original idea.(The Subsription helper)
 
 -> 1st run it on the command line.
 
-======================================================
-FEEDING THE SYSTEM WITH DATA
-======================================================
+# FEEDING THE SYSTEM WITH DATA
+
 -> select ADD DATA.
 -> Enter type of data: Income, Expenditure
       * ____INCOME____
@@ -31,9 +29,8 @@ FEEDING THE SYSTEM WITH DATA
           - Amount spent
           
           
-======================================================
-VIEWING DATA STORED
-======================================================
+# VIEWING DATA STORED
+
 -> Select VIEW DATA
 -> System display the data in tables:
            - income and expenduture
@@ -41,9 +38,8 @@ VIEWING DATA STORED
            
 
 
-======================================================
-DATA STORAGE AND RETRIEVAL
-=======================================================
+# DATA STORAGE AND RETRIEVAL
+
 -> Save related data(income source, Amount) in tables
 // I am thinking in SQL rn
        - Use the insert statement DML
@@ -53,10 +49,9 @@ DATA STORAGE AND RETRIEVAL
        
        
        
-================================================
- ARITHMETIC LOGIC
-===============================================
- 
+
+# ARITHMETIC LOGIC
+
  Populate a Total INCOME.
  	Income =+ NewIncome
  	
@@ -66,10 +61,9 @@ Populate a Total Expenditure.
 NetWorth = Income - Expenditure
 // I am sure this is not how you get a networth of someone.__RESEARCH
  	
-================================================
- IMPLEMENTATION
-================================================
- 
+
+ # IMPLEMENTATION
+
  Data insertion(Income):
         -> Time when the data was inserted
         -> Source
