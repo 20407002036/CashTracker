@@ -32,6 +32,7 @@ decided to divert a little from the original idea.(The Subsription helper)
 # VIEWING DATA STORED
 
 -> Select VIEW DATA
+
 -> System display the data in tables:
            - income and expenduture
            
